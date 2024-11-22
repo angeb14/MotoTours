@@ -1,0 +1,44 @@
+.arriba {
+    height: 35%;
+    text-align: center;
+}
+
+.accordion {
+    background-color: #25313d;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-header .accordion-button {
+    background-color: #444c53;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+
+    &:not(.collapsed),
+    &:hover {
+        background-color: #1a8ebc;
+        color: white;
+    }
+}
+
+.accordion-body {
+    background-color: #3c4a57;
+    color: white;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+
+    img {
+        max-width: 50%;
+        height: 50%;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+}

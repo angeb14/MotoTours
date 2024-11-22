@@ -1,0 +1,36 @@
+.lista {
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+
+.motos {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px;
+}
+
+.card-text {
+    font-size: 1.1em;
+    color: #555;
+}

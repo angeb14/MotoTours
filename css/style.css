@@ -1,0 +1,166 @@
+body {
+  background-color: #26232B;
+}
+
+header {
+  text-align: center;
+  background-color: #26232B;
+}
+
+.img-thumbnail {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  max-height: 120px;
+}
+
+.nav {
+  background-color: #18161b;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background-color: #8C8B95;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: solid;
+  text-transform: uppercase;
+}
+
+.arriba {
+  height: 35%;
+  text-align: center;
+}
+
+.accordion {
+  background-color: #25313d;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-header .accordion-button {
+  background-color: #444c53;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 18px;
+}
+.accordion-header .accordion-button:not(.collapsed), .accordion-header .accordion-button:hover {
+  background-color: #1a8ebc;
+  color: white;
+}
+
+.accordion-body {
+  background-color: #3c4a57;
+  color: white;
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+}
+.accordion-body img {
+  max-width: 50%;
+  height: 50%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.lista {
+  margin-bottom: 20px;
+}
+
+.list-group-item {
+  padding: 10px 15px;
+  margin: 10px 0;
+}
+
+.motos {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body {
+  text-align: center;
+  padding: 10px;
+}
+
+.card-text {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.medio {
+  height: auto;
+}
+
+.tex {
+  text-align: justify;
+  color: white;
+}
+
+form {
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1em;
+}
+
+main {
+  background-color: #26232B;
+}
+
+.container-fluid {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
